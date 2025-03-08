@@ -2,7 +2,7 @@
 
 A comprehensive macOS security assessment and auditing tool that helps identify potential security vulnerabilities and misconfigurations in your system.
 
-![OSXScan Banner](https://raw.githubusercontent.com/yourusername/OSXScan/main/banner.png)
+![OSXScan Banner]([https://github.com/d6fault/OSXScan/blob/main/logo.webp))
 
 ## Versions Available 📦
 
