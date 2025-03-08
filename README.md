@@ -124,7 +124,7 @@ The tool will automatically:
 
 ## Output Example 📝
 
-```
+```bash
 
                                                    *@@@@@                       
                                                @@@@@@@@@@                       
