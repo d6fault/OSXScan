@@ -107,15 +107,13 @@ A comprehensive macOS security assessment and auditing tool that helps identify 
 ## Usage 🚀
 
 ### Python Version
-Run with administrative privileges for full functionality:
 ```bash
-sudo python3 OSXScan.py
+python3 OSXScan.py
 ```
 
 ### Shell Script Version
-Run with administrative privileges for full functionality:
 ```bash
-sudo ./OSXScan.sh
+./OSXScan.sh
 ```
 
 The tool will automatically:
