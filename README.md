@@ -68,7 +68,6 @@ A comprehensive macOS security assessment and auditing tool that helps identify 
 ### Python Version
 - macOS 10.13 or later
 - Python 3.7+
-- Administrative privileges (for some checks)
 - Required Python packages:
   ```
   colorama>=0.4.6
