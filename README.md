@@ -196,8 +196,41 @@ admins-Mac-mini.local
 Darwin admins-Mac-mini.local 24.3.0 Darwin Kernel Version 24.3.0: Thu Jan  2 20:22:58 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T8132 arm64
 
 arm64
-
-Mac16,10
-
-
 ```
+
+
+## Security Considerations ⚠️
+
+- Some checks require root privileges
+- Be cautious when running security tools with elevated privileges
+- Review the code before running on production systems
+- Keep the tool updated for latest security checks
+
+## Contributing 🤝
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments 🙏
+
+- Inspired by various security assessment tools
+- Thanks to all contributors and security researchers
+- Built with Python/Shell and love for the macOS community
+
+## Disclaimer ⚖️
+
+This tool is for educational and security assessment purposes only. Users are responsible for complying with applicable laws and regulations. The authors assume no liability for misuse or damage caused by this tool.
+
+
+Made with ❤️ for the Security Community
+
+
