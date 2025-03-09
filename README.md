@@ -83,7 +83,7 @@ A comprehensive macOS security assessment and auditing tool that helps identify 
 ### Python Version
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/OSXScan.git
+   git clone https://github.com/d6fault/OSXScan.git
    cd OSXScan
    ```
 
@@ -95,7 +95,7 @@ A comprehensive macOS security assessment and auditing tool that helps identify 
 ### Shell Script Version
 1. Clone the repository or download the script:
    ```bash
-   git clone https://github.com/yourusername/OSXScan.git
+   git clone https://github.com/d6fault/OSXScan.git
    cd OSXScan
    ```
 
