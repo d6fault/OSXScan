@@ -679,25 +679,21 @@ def main():
     
     print_banner()
     
-    # System Information Section
     current_section += 1
     print_section_header(current_section, "System Information")
     general_info()
     
-    # Security Configuration Section
     current_section += 1
     print_section_header(current_section, "Security Configuration")
     check_sudo_access()
     check_sudo_config()
     
-    # User Management Section
     current_section += 1
     print_section_header(current_section, "User Management")
     user_accounts()
     hidden_users()
     user_groups()
     
-    # File Permissions Section
     current_section += 1
     print_section_header(current_section, "File Permissions")
     suid_binaries()
