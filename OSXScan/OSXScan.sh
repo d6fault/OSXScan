@@ -606,53 +606,45 @@ main() {
     
     print_banner
     
-    # System Information Section
     ((current_section++))
     print_section_header "$current_section" "System Information"
     general_info
     
-    # Security Configuration Section
     ((current_section++))
     print_section_header "$current_section" "Security Configuration"
     check_sudo_access
     check_sudo_config
     
-    # User Management Section
     ((current_section++))
     print_section_header "$current_section" "User Management"
     user_accounts
     hidden_users
     user_groups
     
-    # File Permissions Section
     ((current_section++))
     print_section_header "$current_section" "File Permissions"
     suid_binaries
     sgid_binaries
     weak_permissions
     
-    # Network Security Section
     ((current_section++))
     print_section_header "$current_section" "Network Security"
     network_info
     check_wifi
     check_dns
     
-    # Application Security Section
     ((current_section++))
     print_section_header "$current_section" "Application Security"
     installed_software
     check_unsigned_apps
     check_quarantine
     
-    # System Security Section
     ((current_section++))
     print_section_header "$current_section" "System Security"
     check_filevault
     check_system_integrity
     check_memory_protections
     
-    # Additional Checks
     check_mdm
     check_time_machine
     check_auto_updates
@@ -674,22 +666,17 @@ main() {
     check_installed_frameworks
     check_plaintext_passwords
     
-    # Final Summary
     echo -e "\n${GREEN}═════════════════════════════════════════════════════════════════"
     echo -e "${GREEN}[✓] Security Scan Complete!"
     echo -e "${GREEN}═════════════════════════════════════════════════════════════════${NC}"
     
-    # Print timestamp
     echo -e "\n${BLUE}[i] Scan completed at: $(date '+%Y-%m-%d %H:%M:%S')${NC}"
 }
 
-# Handle interrupts
 trap 'echo -e "\n${RED}[!] Scan interrupted by user${NC}"; exit 1' INT
 
-# Handle errors
 trap 'echo -e "\n${RED}[✗] Error: $BASH_COMMAND failed${NC}"; exit 1' ERR
 
-# Run main function if script is run directly
 if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
     main
 fi
